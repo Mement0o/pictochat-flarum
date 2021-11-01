@@ -22,10 +22,10 @@ a.Scrubber-last {
   box-shadow: none;
   transition-delay: 0s;
   transform: none;
-  transform: scaleX(-1) scaleY(0.6);
+  transform: scaleX(-1) scaleY(0.5);
   margin-left: -133px;
   position: fixed;
-  top: 62px;
+  top: 5px;
   height: 332px;
   margin-top: -31px;
 }
@@ -263,7 +263,7 @@ article.Post.ReplyPlaceholder {
 
 img.Avatar.PostUser-avatar {
   /* display: none; */
-  ne; */
+
 }
 
 ul.PostUser-badges.badges {
@@ -1035,8 +1035,8 @@ App-backControl button.Button.Button--icon.Button--link.hasIcon {
 }
 
 .App-backControl button.Button.Button--icon.Button--link.hasIcon {
-  right: 2px;
-  top: 185px;
+  right: -12px;
+  top: 139px;
   position: absolute;
 }
 
@@ -1088,11 +1088,11 @@ ul.Dropdown-menu.dropdown-menu.HiddenItemsDropdownMenu {
 
 
 ul.TagTiles {
-    /* margin: 0 !important; */
-    nt; */
-    /* margin-top: 42px; */
-    px; */
-    nt; */
-    nt; */
+
     margin-top: 42px;
+}
+
+
+.Composer:not(.minimized) {
+    height: 0px !important;
 }
