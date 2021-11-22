@@ -1079,6 +1079,13 @@ ul.Dropdown-menu.dropdown-menu.HiddenItemsDropdownMenu {
   }
 }
 
+@media (max-height: 500px) {
+  .PostStreamScrubber .Dropdown-menu {
+    display:none;
+  }
+}
+
+
 .ProseMirrorMenu :nth-child(7n) {
   display: none;
 }
